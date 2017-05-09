@@ -1,0 +1,13 @@
+<h1>Games#score</h1>
+<p>Your Score</p>
+
+<p>The grid : <%= @grid %></p>
+
+<p>Attempt : <%= @attempt %></p>
+
+<p>You scored <%= @result[:score] %> points</p>
+<p>Time elapsed : <%= @result[:time] %> seconds</p>
+<p>It means <%= @result[:translation] %></p>
+
+<p>You played <%= session[:nb_of_games] %> sessions</p>
+<p>Your average score is : <%= @average_score %></p>
